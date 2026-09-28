@@ -7,7 +7,7 @@ import { DocumentsModule } from './documents/documents.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://Gabriela:SaritaHerrera@m0.xmkbmjd.mongodb.net/search-service?appName=M0'),
+    MongooseModule.forRoot('mongodb+srv://********:*************@m0.xmkbmjd.mongodb.net/search-service?appName=M0'),
     SitesModule,
     DocumentsModule,
   ],
